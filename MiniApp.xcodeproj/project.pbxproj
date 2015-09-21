@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0194E631BAFC00800D42376 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0194E621BAFC00800D42376 /* main.m */; };
+		B0194E661BAFC00800D42376 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0194E651BAFC00800D42376 /* AppDelegate.m */; };
+		B0194E691BAFC00800D42376 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B0194E681BAFC00800D42376 /* GameScene.m */; };
+		B0194E6B1BAFC00800D42376 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B0194E6A1BAFC00800D42376 /* GameScene.sks */; };
+		B0194E6E1BAFC00800D42376 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0194E6D1BAFC00800D42376 /* GameViewController.m */; };
+		B0194E711BAFC00800D42376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0194E6F1BAFC00800D42376 /* Main.storyboard */; };
+		B0194E731BAFC00800D42376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0194E721BAFC00800D42376 /* Assets.xcassets */; };
+		B0194E761BAFC00800D42376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0194E741BAFC00800D42376 /* LaunchScreen.storyboard */; };
+		B0194E821BAFC36000D42376 /* Lullaby.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E801BAFC36000D42376 /* Lullaby.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194E831BAFC36000D42376 /* Lullaby.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0194E811BAFC36000D42376 /* Lullaby.wav */; settings = {ASSET_TAGS = (); }; };
+		B0194E9F1BAFC5AB00D42376 /* baby-big-laugh-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E841BAFC36B00D42376 /* baby-big-laugh-1.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EA01BAFC5AB00D42376 /* baby-big-laugh-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E851BAFC36B00D42376 /* baby-big-laugh-2.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EA11BAFC5AB00D42376 /* baby-giggle-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E861BAFC36B00D42376 /* baby-giggle-1.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EA21BAFC5AB00D42376 /* baby-giggle-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E871BAFC36B00D42376 /* baby-giggle-2.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EA31BAFC5AB00D42376 /* baby-giggle-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E881BAFC36B00D42376 /* baby-giggle-3.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EA41BAFC5AB00D42376 /* baby-giggle-4a.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E891BAFC36B00D42376 /* baby-giggle-4a.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EA51BAFC5AB00D42376 /* baby-giggle-4b.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E8A1BAFC36B00D42376 /* baby-giggle-4b.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EA61BAFC5AB00D42376 /* baby-giggle-4c.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E8B1BAFC36B00D42376 /* baby-giggle-4c.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EA71BAFC5AB00D42376 /* baby-goo-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E8C1BAFC36B00D42376 /* baby-goo-1.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EA81BAFC5AB00D42376 /* baby-goo-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E8D1BAFC36B00D42376 /* baby-goo-2.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EA91BAFC5AB00D42376 /* baby-goo-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E8E1BAFC36B00D42376 /* baby-goo-3.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EAA1BAFC5AB00D42376 /* baby-goo-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E8F1BAFC36B00D42376 /* baby-goo-4.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EAB1BAFC5AB00D42376 /* baby-goo-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E901BAFC36B00D42376 /* baby-goo-5.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EAC1BAFC5AB00D42376 /* baby-goo-6.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E911BAFC36B00D42376 /* baby-goo-6.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EAD1BAFC5AB00D42376 /* baby-goo-7.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E921BAFC36B00D42376 /* baby-goo-7.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EAE1BAFC5AB00D42376 /* baby-goo-8.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E931BAFC36B00D42376 /* baby-goo-8.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EAF1BAFC5AB00D42376 /* baby-laugh-4a.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E941BAFC36B00D42376 /* baby-laugh-4a.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EB01BAFC5AB00D42376 /* baby-laugh-5a.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E951BAFC36B00D42376 /* baby-laugh-5a.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EB11BAFC5AB00D42376 /* baby-laugh-5b.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E961BAFC36B00D42376 /* baby-laugh-5b.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EB21BAFC5AB00D42376 /* baby-laugh-5c.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E971BAFC36B00D42376 /* baby-laugh-5c.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EB31BAFC5AB00D42376 /* baby-laugh-5d.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E981BAFC36B00D42376 /* baby-laugh-5d.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EB41BAFC5AB00D42376 /* baby-laugh-6.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E991BAFC36B00D42376 /* baby-laugh-6.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EB51BAFC5AB00D42376 /* baby-laugh-7a.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E9A1BAFC36B00D42376 /* baby-laugh-7a.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EB61BAFC5AB00D42376 /* baby-laugh-8.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E9B1BAFC36B00D42376 /* baby-laugh-8.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EB71BAFC5AB00D42376 /* baby-laugh-9.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E9C1BAFC36B00D42376 /* baby-laugh-9.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EB81BAFC5AB00D42376 /* baby-laugh-snort-10.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E9D1BAFC36B00D42376 /* baby-laugh-snort-10.caf */; settings = {ASSET_TAGS = (); }; };
+		B0194EB91BAFC5AB00D42376 /* baby-screech-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B0194E9E1BAFC36B00D42376 /* baby-screech-1.caf */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0194E5E1BAFC00800D42376 /* MiniApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0194E621BAFC00800D42376 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0194E641BAFC00800D42376 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0194E651BAFC00800D42376 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0194E671BAFC00800D42376 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		B0194E681BAFC00800D42376 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		B0194E6A1BAFC00800D42376 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B0194E6C1BAFC00800D42376 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		B0194E6D1BAFC00800D42376 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		B0194E701BAFC00800D42376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0194E721BAFC00800D42376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0194E751BAFC00800D42376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0194E771BAFC00800D42376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0194E801BAFC36000D42376 /* Lullaby.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lullaby.caf; sourceTree = "<group>"; };
+		B0194E811BAFC36000D42376 /* Lullaby.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Lullaby.wav; sourceTree = "<group>"; };
+		B0194E841BAFC36B00D42376 /* baby-big-laugh-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "baby-big-laugh-1.caf"; path = "MiniApp/Resources/Sounds/baby-big-laugh-1.caf"; sourceTree = SOURCE_ROOT; };
+		B0194E851BAFC36B00D42376 /* baby-big-laugh-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-big-laugh-2.caf"; sourceTree = "<group>"; };
+		B0194E861BAFC36B00D42376 /* baby-giggle-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-giggle-1.caf"; sourceTree = "<group>"; };
+		B0194E871BAFC36B00D42376 /* baby-giggle-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-giggle-2.caf"; sourceTree = "<group>"; };
+		B0194E881BAFC36B00D42376 /* baby-giggle-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-giggle-3.caf"; sourceTree = "<group>"; };
+		B0194E891BAFC36B00D42376 /* baby-giggle-4a.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-giggle-4a.caf"; sourceTree = "<group>"; };
+		B0194E8A1BAFC36B00D42376 /* baby-giggle-4b.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-giggle-4b.caf"; sourceTree = "<group>"; };
+		B0194E8B1BAFC36B00D42376 /* baby-giggle-4c.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-giggle-4c.caf"; sourceTree = "<group>"; };
+		B0194E8C1BAFC36B00D42376 /* baby-goo-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-1.caf"; sourceTree = "<group>"; };
+		B0194E8D1BAFC36B00D42376 /* baby-goo-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-2.caf"; sourceTree = "<group>"; };
+		B0194E8E1BAFC36B00D42376 /* baby-goo-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-3.caf"; sourceTree = "<group>"; };
+		B0194E8F1BAFC36B00D42376 /* baby-goo-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-4.caf"; sourceTree = "<group>"; };
+		B0194E901BAFC36B00D42376 /* baby-goo-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-5.caf"; sourceTree = "<group>"; };
+		B0194E911BAFC36B00D42376 /* baby-goo-6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-6.caf"; sourceTree = "<group>"; };
+		B0194E921BAFC36B00D42376 /* baby-goo-7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-7.caf"; sourceTree = "<group>"; };
+		B0194E931BAFC36B00D42376 /* baby-goo-8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-goo-8.caf"; sourceTree = "<group>"; };
+		B0194E941BAFC36B00D42376 /* baby-laugh-4a.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-4a.caf"; sourceTree = "<group>"; };
+		B0194E951BAFC36B00D42376 /* baby-laugh-5a.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-5a.caf"; sourceTree = "<group>"; };
+		B0194E961BAFC36B00D42376 /* baby-laugh-5b.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-5b.caf"; sourceTree = "<group>"; };
+		B0194E971BAFC36B00D42376 /* baby-laugh-5c.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-5c.caf"; sourceTree = "<group>"; };
+		B0194E981BAFC36B00D42376 /* baby-laugh-5d.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-5d.caf"; sourceTree = "<group>"; };
+		B0194E991BAFC36B00D42376 /* baby-laugh-6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-6.caf"; sourceTree = "<group>"; };
+		B0194E9A1BAFC36B00D42376 /* baby-laugh-7a.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-7a.caf"; sourceTree = "<group>"; };
+		B0194E9B1BAFC36B00D42376 /* baby-laugh-8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-8.caf"; sourceTree = "<group>"; };
+		B0194E9C1BAFC36B00D42376 /* baby-laugh-9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-9.caf"; sourceTree = "<group>"; };
+		B0194E9D1BAFC36B00D42376 /* baby-laugh-snort-10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-laugh-snort-10.caf"; sourceTree = "<group>"; };
+		B0194E9E1BAFC36B00D42376 /* baby-screech-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "baby-screech-1.caf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0194E5B1BAFC00800D42376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0194E551BAFC00800D42376 = {
+			isa = PBXGroup;
+			children = (
+				B0194E601BAFC00800D42376 /* MiniApp */,
+				B0194E5F1BAFC00800D42376 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0194E5F1BAFC00800D42376 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0194E5E1BAFC00800D42376 /* MiniApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0194E601BAFC00800D42376 /* MiniApp */ = {
+			isa = PBXGroup;
+			children = (
+				B0194E7D1BAFC2A200D42376 /* Resources */,
+				B0194E641BAFC00800D42376 /* AppDelegate.h */,
+				B0194E651BAFC00800D42376 /* AppDelegate.m */,
+				B0194E671BAFC00800D42376 /* GameScene.h */,
+				B0194E681BAFC00800D42376 /* GameScene.m */,
+				B0194E6A1BAFC00800D42376 /* GameScene.sks */,
+				B0194E6C1BAFC00800D42376 /* GameViewController.h */,
+				B0194E6D1BAFC00800D42376 /* GameViewController.m */,
+				B0194E6F1BAFC00800D42376 /* Main.storyboard */,
+				B0194E721BAFC00800D42376 /* Assets.xcassets */,
+				B0194E741BAFC00800D42376 /* LaunchScreen.storyboard */,
+				B0194E771BAFC00800D42376 /* Info.plist */,
+				B0194E611BAFC00800D42376 /* Supporting Files */,
+			);
+			path = MiniApp;
+			sourceTree = "<group>";
+		};
+		B0194E611BAFC00800D42376 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0194E621BAFC00800D42376 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0194E7D1BAFC2A200D42376 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0194E7F1BAFC2AD00D42376 /* Music */,
+				B0194E7E1BAFC2A800D42376 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B0194E7E1BAFC2A800D42376 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B0194E841BAFC36B00D42376 /* baby-big-laugh-1.caf */,
+				B0194E851BAFC36B00D42376 /* baby-big-laugh-2.caf */,
+				B0194E861BAFC36B00D42376 /* baby-giggle-1.caf */,
+				B0194E871BAFC36B00D42376 /* baby-giggle-2.caf */,
+				B0194E881BAFC36B00D42376 /* baby-giggle-3.caf */,
+				B0194E891BAFC36B00D42376 /* baby-giggle-4a.caf */,
+				B0194E8A1BAFC36B00D42376 /* baby-giggle-4b.caf */,
+				B0194E8B1BAFC36B00D42376 /* baby-giggle-4c.caf */,
+				B0194E8C1BAFC36B00D42376 /* baby-goo-1.caf */,
+				B0194E8D1BAFC36B00D42376 /* baby-goo-2.caf */,
+				B0194E8E1BAFC36B00D42376 /* baby-goo-3.caf */,
+				B0194E8F1BAFC36B00D42376 /* baby-goo-4.caf */,
+				B0194E901BAFC36B00D42376 /* baby-goo-5.caf */,
+				B0194E911BAFC36B00D42376 /* baby-goo-6.caf */,
+				B0194E921BAFC36B00D42376 /* baby-goo-7.caf */,
+				B0194E931BAFC36B00D42376 /* baby-goo-8.caf */,
+				B0194E941BAFC36B00D42376 /* baby-laugh-4a.caf */,
+				B0194E951BAFC36B00D42376 /* baby-laugh-5a.caf */,
+				B0194E961BAFC36B00D42376 /* baby-laugh-5b.caf */,
+				B0194E971BAFC36B00D42376 /* baby-laugh-5c.caf */,
+				B0194E981BAFC36B00D42376 /* baby-laugh-5d.caf */,
+				B0194E991BAFC36B00D42376 /* baby-laugh-6.caf */,
+				B0194E9A1BAFC36B00D42376 /* baby-laugh-7a.caf */,
+				B0194E9B1BAFC36B00D42376 /* baby-laugh-8.caf */,
+				B0194E9C1BAFC36B00D42376 /* baby-laugh-9.caf */,
+				B0194E9D1BAFC36B00D42376 /* baby-laugh-snort-10.caf */,
+				B0194E9E1BAFC36B00D42376 /* baby-screech-1.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		B0194E7F1BAFC2AD00D42376 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				B0194E801BAFC36000D42376 /* Lullaby.caf */,
+				B0194E811BAFC36000D42376 /* Lullaby.wav */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0194E5D1BAFC00800D42376 /* MiniApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0194E7A1BAFC00800D42376 /* Build configuration list for PBXNativeTarget "MiniApp" */;
+			buildPhases = (
+				B0194E5A1BAFC00800D42376 /* Sources */,
+				B0194E5B1BAFC00800D42376 /* Frameworks */,
+				B0194E5C1BAFC00800D42376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniApp;
+			productName = MiniApp;
+			productReference = B0194E5E1BAFC00800D42376 /* MiniApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0194E561BAFC00800D42376 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Wayne Dahlberg";
+				TargetAttributes = {
+					B0194E5D1BAFC00800D42376 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = B0194E591BAFC00800D42376 /* Build configuration list for PBXProject "MiniApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0194E551BAFC00800D42376;
+			productRefGroup = B0194E5F1BAFC00800D42376 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0194E5D1BAFC00800D42376 /* MiniApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0194E5C1BAFC00800D42376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0194EA71BAFC5AB00D42376 /* baby-goo-1.caf in Resources */,
+				B0194EA21BAFC5AB00D42376 /* baby-giggle-2.caf in Resources */,
+				B0194EA31BAFC5AB00D42376 /* baby-giggle-3.caf in Resources */,
+				B0194EAB1BAFC5AB00D42376 /* baby-goo-5.caf in Resources */,
+				B0194EAA1BAFC5AB00D42376 /* baby-goo-4.caf in Resources */,
+				B0194EAC1BAFC5AB00D42376 /* baby-goo-6.caf in Resources */,
+				B0194EB21BAFC5AB00D42376 /* baby-laugh-5c.caf in Resources */,
+				B0194EA91BAFC5AB00D42376 /* baby-goo-3.caf in Resources */,
+				B0194E9F1BAFC5AB00D42376 /* baby-big-laugh-1.caf in Resources */,
+				B0194E6B1BAFC00800D42376 /* GameScene.sks in Resources */,
+				B0194EB11BAFC5AB00D42376 /* baby-laugh-5b.caf in Resources */,
+				B0194EB91BAFC5AB00D42376 /* baby-screech-1.caf in Resources */,
+				B0194EB41BAFC5AB00D42376 /* baby-laugh-6.caf in Resources */,
+				B0194EAD1BAFC5AB00D42376 /* baby-goo-7.caf in Resources */,
+				B0194EB61BAFC5AB00D42376 /* baby-laugh-8.caf in Resources */,
+				B0194EA81BAFC5AB00D42376 /* baby-goo-2.caf in Resources */,
+				B0194EA61BAFC5AB00D42376 /* baby-giggle-4c.caf in Resources */,
+				B0194EA11BAFC5AB00D42376 /* baby-giggle-1.caf in Resources */,
+				B0194E761BAFC00800D42376 /* LaunchScreen.storyboard in Resources */,
+				B0194EB31BAFC5AB00D42376 /* baby-laugh-5d.caf in Resources */,
+				B0194EA51BAFC5AB00D42376 /* baby-giggle-4b.caf in Resources */,
+				B0194EA41BAFC5AB00D42376 /* baby-giggle-4a.caf in Resources */,
+				B0194EB01BAFC5AB00D42376 /* baby-laugh-5a.caf in Resources */,
+				B0194E831BAFC36000D42376 /* Lullaby.wav in Resources */,
+				B0194EB51BAFC5AB00D42376 /* baby-laugh-7a.caf in Resources */,
+				B0194E731BAFC00800D42376 /* Assets.xcassets in Resources */,
+				B0194EB71BAFC5AB00D42376 /* baby-laugh-9.caf in Resources */,
+				B0194EAF1BAFC5AB00D42376 /* baby-laugh-4a.caf in Resources */,
+				B0194E821BAFC36000D42376 /* Lullaby.caf in Resources */,
+				B0194EB81BAFC5AB00D42376 /* baby-laugh-snort-10.caf in Resources */,
+				B0194EAE1BAFC5AB00D42376 /* baby-goo-8.caf in Resources */,
+				B0194EA01BAFC5AB00D42376 /* baby-big-laugh-2.caf in Resources */,
+				B0194E711BAFC00800D42376 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0194E5A1BAFC00800D42376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0194E6E1BAFC00800D42376 /* GameViewController.m in Sources */,
+				B0194E661BAFC00800D42376 /* AppDelegate.m in Sources */,
+				B0194E691BAFC00800D42376 /* GameScene.m in Sources */,
+				B0194E631BAFC00800D42376 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0194E6F1BAFC00800D42376 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0194E701BAFC00800D42376 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0194E741BAFC00800D42376 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0194E751BAFC00800D42376 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0194E781BAFC00800D42376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0194E791BAFC00800D42376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0194E7B1BAFC00800D42376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.waynedahlberg.MiniApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0194E7C1BAFC00800D42376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.waynedahlberg.MiniApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0194E591BAFC00800D42376 /* Build configuration list for PBXProject "MiniApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0194E781BAFC00800D42376 /* Debug */,
+				B0194E791BAFC00800D42376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0194E7A1BAFC00800D42376 /* Build configuration list for PBXNativeTarget "MiniApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0194E7B1BAFC00800D42376 /* Debug */,
+				B0194E7C1BAFC00800D42376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0194E561BAFC00800D42376 /* Project object */;
+}
