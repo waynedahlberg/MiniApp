@@ -7,6 +7,7 @@
 //
 
 #import "GameScene.h"
+#import "SAMRateLimit.h"
 
 @interface GameScene ()
 
@@ -133,10 +134,10 @@
     
     SKAction *animations = [SKAction sequence:actions];
     __block SKAction *playSound = [[SKAction alloc] init];
-//    [SAMRateLimit executeBlock:^{
-//        playSound = self.giggleSounds[arc4random_uniform((u_int32_t)self.giggleSounds.count)];
-//        
-//    } name:@"ThrottleGiggleSound" limit:0.8];
+    [SAMRateLimit executeBlock:^{
+        playSound = self.giggleSounds[arc4random_uniform((u_int32_t)self.giggleSounds.count)];
+        
+    } name:@"ThrottleGiggleSound" limit:0.8];
     
     SKAction *group = [SKAction group:@[playSound, animations]];
     
