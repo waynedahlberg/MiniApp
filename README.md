@@ -1,2 +1,2 @@
 # MiniApp
-The Mini App - A touch game for toddlers and infants
+The Mini App - A tap gesture game for toddlers and infants
