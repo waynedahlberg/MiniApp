@@ -2,4 +2,4 @@
 
 The Mini App - A tap gesture game for toddlers and infants
 
-![Laney App](./screenshot.png)
+![Screenshot](./screenshot.png)
